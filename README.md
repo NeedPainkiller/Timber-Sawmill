@@ -66,13 +66,31 @@ npm run test:cov
 # Build 
 npm run build
 ```
-## Running the app On Docker
+## Docker
+```Bash
+# create ".env" file
+
+## Database (MariaDB)
+DB_DIALECT=mariadb
+DB_HOST=x.y.z
+DB_PORT=3306
+DB_NAME=timber-audit
+DB_USERNAME=timber
+DB_PASSWORD=passwd
+
+## Message Queue (Kafka)
+KAFKA_BROKERS=x.x.x.x:9092,y.y.y.y:2909,z.z.z.z:9092
+KAFKA_ID=timber-sawmill
+KAFKA_GROUP_ID=timber-sawmill-group
+```
+
+
 ```Bash
 # Build Dockerfile
 docker build . -t timber-sawmill
 
 # Run Dockerfile
-docker container run -d -p 3000:3000 -v .env:/var/app/.env nest-docker 
+docker container run -d -p 3000:3000 -v ./.env:/var/app/.env nest-docker 
 ```
 
 ## Support
