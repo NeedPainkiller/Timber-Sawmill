@@ -61,6 +61,20 @@ npm run test:e2e
 npm run test:cov
 ```
 
+## Build
+```Bash
+# Build 
+npm run build
+```
+## Running the app On Docker
+```Bash
+# Build Dockerfile
+docker build . -t timber-sawmill
+
+# Run Dockerfile
+docker container run -d -p 3000:3000 -v .env:/var/app/.env nest-docker 
+```
+
 ## Support
 
 Timber-Sawmill is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
