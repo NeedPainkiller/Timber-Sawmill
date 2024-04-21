@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=Timber%20Sawmill&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Log processing backend service for Timber Framework&descAlignY=51&descAlign=62"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=TIMBER%20SAWMILL&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Log processing backend service for Timber Framework&descAlignY=51&descAlign=62"/>
 
 # TIMBER SAWMILL
 
